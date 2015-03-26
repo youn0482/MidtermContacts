@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, target-densitydpi=device-dpi" />
+    <title>Contacts</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+    
+<body>    
+<div data-role="page" id="contacts" class="active">
+    <h2>Contacts List</h2>
+  <div data-role="content">
+    <div id="ctc">
+    <ul id="conList"></ul>
+    </div>
+  </div>
+</div>
+    
+<div data-role="map" id="map" class="hidden">
+    <h2>Map</h2>
+    <div id="closeMap" class="bck">Back</div>
+  <div data-role="content">
+    <div id="map-canvas">
+      
+    </div>
+  </div>
+</div>
+    
+<div data-role="overlay">&nbsp;</div>
+  
+    
+<div data-role="modal">
+    
+    <div id="divClose" class="bck">
+        Back
+    </div>
+    
+    <h3 id="conName"></h3>
+    <ul id="numList"></ul>
+</div>
+
+
+
+<script src="cordova.js"></script>
+
+<script src="js/hammer.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxyhYbZyJ1g-7kMK9S_JkHVvhYtIZWx-k"></script>
+<script src="js/operator.js"></script>
+</body>
+
+</html>
